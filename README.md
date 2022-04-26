@@ -55,7 +55,5 @@ java -jar C:\Users\zhangxiao\Downloads\sqltuing\target\sqltuing-0.0.1-SNAPSHOT.j
 (3)#####url
 ## url http://localhost:30080/
 
-![image](https://github.com/438826708/Jinkla-No1/blob/main/demo.png)
-
 ## commit sql
 
