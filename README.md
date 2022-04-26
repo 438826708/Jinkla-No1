@@ -47,6 +47,8 @@ OuGcrxiP
 cmd里面启动jar包，对应上jar包位置，并且根据实际数据库地址，库名，端口，用户名，密码填写
 例如我的jar包放在C:\Users\zhangxiao\Downloads\sqltuing\target\sqltuing-0.0.1-SNAPSHOT.jar
 数据库地址是192.168.56.102，端口是1521，库名是orcl，用户名是sqltuningauto，密码是Sqltuningauto!20220403
+
+
 ```sh
 java -jar C:\Users\zhangxiao\Downloads\sqltuing\target\sqltuing-0.0.1-SNAPSHOT.jar --spring.datasource.url=jdbc:oracle:thin:@192.168.56.101:1521/orcl --spring.datasource.username=sqltuningauto --spring.datasource.password=Sqltuningauto!20220403
 ```
