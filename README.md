@@ -13,7 +13,7 @@ alter user sqltuningauto quota unlimited on users;
 
 create table SQLTUNINGAUTO.SQL_TUNING20220422
 (
-  time timestamp(9) default sysdate， 
+  time timestamp(9) default sysdate，
   content CLOB
 )
 tablespace USERS
