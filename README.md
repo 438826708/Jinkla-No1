@@ -50,7 +50,7 @@ cmd里面启动jar包，对应上jar包位置，并且根据实际数据库地�
 
 
 ```sh
-java -jar C:\Users\zhangxiao\Downloads\sqltuing\target\sqltuing-0.0.1-SNAPSHOT.jar --spring.datasource.url=jdbc:oracle:thin:@192.168.56.101:1521/orcl --spring.datasource.username=sqltuningauto --spring.datasource.password=Sqltuningauto!20220403
+java -jar C:\Users\zhangxiao\Downloads\sqltuing\target\sqltuing-0.0.1-SNAPSHOT.jar --spring.datasource.url=jdbc:oracle:thin:@192.168.56.102:1521/orcl --spring.datasource.username=sqltuningauto --spring.datasource.password=Sqltuningauto!20220403
 ```
 (3)#####url
 ## url http://localhost:30080/
