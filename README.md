@@ -5,11 +5,28 @@
 
 ##Oracle - User/ PL/SQL / Store Procedures
 ##create user
-创建用户，并且授权,创建存储过程
+创建用户，并且授权,创建表，创建存储过程
 ```sh
 create user sqltuningauto identified by "Sqltuningauto!20220403";
 grant connect,resource,advisor  to sqltuningauto;
 alter user sqltuningauto quota unlimited on users;
+
+create table SQLTUNINGAUTO.SQL_TUNING20220422
+(
+  time timestamp(9) default sysdate， 
+  content CLOB
+)
+tablespace USERS
+  pctfree 10
+  initrans 1
+  maxtrans 255
+  storage
+  (
+    initial 64K
+    next 1M
+    minextents 1
+    maxextents unlimited
+  );
 
 CREATE OR REPLACE PROCEDURE sqltuningauto.procinout wrapped
  a000000
