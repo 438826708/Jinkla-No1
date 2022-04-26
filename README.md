@@ -110,8 +110,9 @@ C:\Users\zhangxiao>java -jar C:\Users\zhangxiao\Downloads\sqltuing\target\sqltui
 2022-04-26 17:55:51.631  INFO 8692 --- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
 2022-04-26 17:55:52.027  INFO 8692 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 30080 (http) with context path ''
 2022-04-26 17:55:52.044  INFO 8692 --- [           main] c.example.sqltuing.SqltuingApplication   : Started SqltuingApplication in 7.816 seconds (JVM running for 8.312)
-(3)#####url
-## url http://localhost:30080/
+(3)#####打开网址
+##  http://localhost:30080/
 
-## commit sql
+(4)
+## 提交要优化的 sql
 
