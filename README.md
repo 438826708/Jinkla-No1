@@ -1,7 +1,3 @@
-# Jinkla-No1
-oracle sql tuning sql自动优化建议
-
-
 # sqltuning
 
 
@@ -57,7 +53,4 @@ java -jar C:\Users\zhangxiao\Downloads\sqltuing\target\sqltuing-0.0.1-SNAPSHOT.j
 (3)#####url
 ## url http://localhost:30080/
 ## commit sql
-
-
-
 
