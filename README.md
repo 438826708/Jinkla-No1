@@ -8,7 +8,7 @@
 创建用户，并且授权,创建表，创建存储过程
 ```sh
 create user sqltuningauto identified by "Sqltuningauto!20220403";
-grant connect,resource,advisor  to sqltuningauto;;
+grant connect,resource,advisor  to sqltuningauto;
 grant select any table to sqltuningauto;
 alter user sqltuningauto quota unlimited on users;
 
